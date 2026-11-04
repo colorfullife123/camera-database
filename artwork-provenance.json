@@ -1,0 +1,579 @@
+{
+  "version": "1.4.0",
+  "artwork": [
+    {
+      "key": "nikon-z9",
+      "brand": "nikon",
+      "model": "Z9",
+      "pattern": "(?i)^nikon/(?:nikon)?z9$",
+      "file": "nikon-z9.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_9/img/z_9_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_9/",
+      "asset": "ModelArt-nikon-z9.png",
+      "source_sha256": "494b1b20d4c184c16a4752ba00ef7d78fdb31f997a11b42fbd8673ef4c97dc62"
+    },
+    {
+      "key": "nikon-z8",
+      "brand": "nikon",
+      "model": "Z8",
+      "pattern": "(?i)^nikon/(?:nikon)?z8$",
+      "file": "nikon-z8.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_8/img/z_8_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_8/",
+      "asset": "ModelArt-nikon-z8.png",
+      "source_sha256": "f239d13193ac671ed8a14352457e2256b6b66871587bb7132f1cc6b444365137"
+    },
+    {
+      "key": "nikon-z7ii",
+      "brand": "nikon",
+      "model": "Z7II",
+      "pattern": "(?i)^nikon/(?:nikon)?(?:z7ii|z72)$",
+      "file": "nikon-z7ii.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_7_2/img/z_7_2_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_7_2/",
+      "asset": "ModelArt-nikon-z7ii.png",
+      "source_sha256": "8a93aaa54616267c1ec047d4fccd8b8b71881f18339d7de053cbaed43d8b4388"
+    },
+    {
+      "key": "nikon-z7",
+      "brand": "nikon",
+      "model": "Z7",
+      "pattern": "(?i)^nikon/(?:nikon)?z7$",
+      "file": "nikon-z7.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_7/img/z_7_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_7/",
+      "asset": "ModelArt-nikon-z7.png",
+      "source_sha256": "1e381a4eb2522c833350a6a2af3e43553e8aff0b6f3e733bd7ab2b213bbd18c0"
+    },
+    {
+      "key": "nikon-z6iii",
+      "brand": "nikon",
+      "model": "Z6III",
+      "pattern": "(?i)^nikon/(?:nikon)?(?:z6iii|z63)$",
+      "file": "nikon-z6iii.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z6_3/img/z6_3_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z6_3/",
+      "asset": "ModelArt-nikon-z6iii.png",
+      "source_sha256": "eb6db92721f0fd5fe5d7a7edb351e92531a130309a48080b23b8bab07bad7a5a"
+    },
+    {
+      "key": "nikon-z6ii",
+      "brand": "nikon",
+      "model": "Z6II",
+      "pattern": "(?i)^nikon/(?:nikon)?(?:z6ii|z62)$",
+      "file": "nikon-z6ii.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_6_2/img/z_6_2_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_6_2/",
+      "asset": "ModelArt-nikon-z6ii.png",
+      "source_sha256": "94049c61acadbe7add85b30d6859226ce04bab4be432d35ede782acfb8ab5bea"
+    },
+    {
+      "key": "nikon-z6",
+      "brand": "nikon",
+      "model": "Z6",
+      "pattern": "(?i)^nikon/(?:nikon)?z6$",
+      "file": "nikon-z6.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_6/img/z_6_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_6/",
+      "asset": "ModelArt-nikon-z6.png",
+      "source_sha256": "15f4017595157745211f4dcf694d9bb27e17459a7acb09d62c5ae106f14cd448"
+    },
+    {
+      "key": "nikon-z5",
+      "brand": "nikon",
+      "model": "Z5",
+      "pattern": "(?i)^nikon/(?:nikon)?z5$",
+      "file": "nikon-z5.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_5/img/z_5_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_5/",
+      "asset": "ModelArt-nikon-z5.png",
+      "source_sha256": "70e9c823aa89cb155d1a2d5febff5d240109e1c18cd2b5f50e1b6cbeaa5258f8"
+    },
+    {
+      "key": "nikon-z5ii",
+      "brand": "nikon",
+      "model": "Z5II",
+      "pattern": "(?i)^nikon/(?:nikon)?(?:z5ii|z52)$",
+      "file": "nikon-z5ii.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z5_2/img/z5_2_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z5_2/",
+      "asset": "ModelArt-nikon-z5ii.png",
+      "source_sha256": "64e92eb3d812bdfc1aba2413c08acf07b3412766cb14ba0187a9de62fb1128e4"
+    },
+    {
+      "key": "nikon-z50ii",
+      "brand": "nikon",
+      "model": "Z50II",
+      "pattern": "(?i)^nikon/(?:nikon)?(?:z50ii|z502)$",
+      "file": "nikon-z50ii.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z50_2/img/z50_2_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z50_2/",
+      "asset": "ModelArt-nikon-z50ii.png",
+      "source_sha256": "861a99ffba1b1ed630876073af3f965e187390a362f0fb4cfdffb3b128d5cedf"
+    },
+    {
+      "key": "nikon-z50",
+      "brand": "nikon",
+      "model": "Z50",
+      "pattern": "(?i)^nikon/(?:nikon)?z50$",
+      "file": "nikon-z50.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_50/img/z_50_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_50/",
+      "asset": "ModelArt-nikon-z50.png",
+      "source_sha256": "9510c0552a49e084ebf6b21b0020a00f33c302f1168e5667288e12decb666277"
+    },
+    {
+      "key": "nikon-z30",
+      "brand": "nikon",
+      "model": "Z30",
+      "pattern": "(?i)^nikon/(?:nikon)?z30$",
+      "file": "nikon-z30.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_30/img/z_30_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_30/",
+      "asset": "ModelArt-nikon-z30.png",
+      "source_sha256": "1f67aec8cf58bb66482d630458eb17f6fa3865674a7f747c140fe4d626b5a935"
+    },
+    {
+      "key": "nikon-zf",
+      "brand": "nikon",
+      "model": "ZF",
+      "pattern": "(?i)^nikon/(?:nikon)?zf$",
+      "file": "nikon-zf.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_f/img/z_f_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_f/",
+      "asset": "ModelArt-nikon-zf.png",
+      "source_sha256": "68bc364dbfb0d025de55d603bca385f56d1fd3db6740350204cb786d4cd81cee"
+    },
+    {
+      "key": "nikon-zfc",
+      "brand": "nikon",
+      "model": "ZFC",
+      "pattern": "(?i)^nikon/(?:nikon)?zfc$",
+      "file": "nikon-zfc.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_fc/img/z_fc_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/mirrorless/z_fc/",
+      "asset": "ModelArt-nikon-zfc.png",
+      "source_sha256": "afb6328037f7e4a5dc42f977747656bdf3cac74973eb9531a3cc03f55fb243b0"
+    },
+    {
+      "key": "nikon-d7500",
+      "brand": "nikon",
+      "model": "D7500",
+      "pattern": "(?i)^nikon/(?:nikon)?d7500$",
+      "file": "nikon-d7500.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/dslr/d7500/img/logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/dslr/d7500/",
+      "asset": "ModelArt-nikon-d7500.png",
+      "source_sha256": "240e3ab0a0e776259e192725a3f3a418f6b3bcfe453a84594a447db6797a6baf"
+    },
+    {
+      "key": "nikon-d850",
+      "brand": "nikon",
+      "model": "D850",
+      "pattern": "(?i)^nikon/(?:nikon)?d850$",
+      "file": "nikon-d850.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/dslr/d850/img/logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/dslr/d850/",
+      "asset": "ModelArt-nikon-d850.png",
+      "source_sha256": "0c01ee692c960204471ce96f6aab10a70a26e15b220aeaca4dd138660e239893"
+    },
+    {
+      "key": "nikon-d500",
+      "brand": "nikon",
+      "model": "D500",
+      "pattern": "(?i)^nikon/(?:nikon)?d500$",
+      "file": "nikon-d500.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/dslr/d500/img/logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/dslr/d500/",
+      "asset": "ModelArt-nikon-d500.png",
+      "source_sha256": "bc490c74261d1dd59b7c88df63a0e750fbaea35f90fffdf34e9c985259a85a48"
+    },
+    {
+      "key": "nikon-d780",
+      "brand": "nikon",
+      "model": "D780",
+      "pattern": "(?i)^nikon/(?:nikon)?d780$",
+      "file": "nikon-d780.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/dslr/d780/img/logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/dslr/d780/",
+      "asset": "ModelArt-nikon-d780.png",
+      "source_sha256": "d36e753b90ff68c48b79c136d7e73901ada9958977412567b4eb8ad18831d289"
+    },
+    {
+      "key": "nikon-d3500",
+      "brand": "nikon",
+      "model": "D3500",
+      "pattern": "(?i)^nikon/(?:nikon)?d3500$",
+      "file": "nikon-d3500.jpg",
+      "source": "https://imaging.nikon.com/imaging/lineup/dslr/d3500/img/d3500_logo.jpg",
+      "page": "https://imaging.nikon.com/imaging/lineup/dslr/d3500/",
+      "asset": "ModelArt-nikon-d3500.png",
+      "source_sha256": "bdc9c4f270f8362b48202c829ca9a3ac3be653b8a1b75747f86f94932f60d142"
+    },
+    {
+      "key": "apple-iphone12",
+      "brand": "apple",
+      "model": "iPhone 12",
+      "pattern": "(?i)^apple/(?:apple)?iphone12$",
+      "file": "IPhone_12_wordmark.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_12_wordmark.svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone12.png",
+      "source_sha256": "60816666d0d8a22174f8162d226a6e38770135cb145e6bb942c0eef9ad30cc0c"
+    },
+    {
+      "key": "apple-iphone12pro",
+      "brand": "apple",
+      "model": "iPhone 12 Pro",
+      "pattern": "(?i)^apple/(?:apple)?iphone12pro$",
+      "file": "IPhone_12_Pro_wordmark.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_12_Pro_wordmark.svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone12pro.png",
+      "source_sha256": "48a83d339bcd52b8da26804be9e40c7b42548cd7b96a6e34801a796408259e05"
+    },
+    {
+      "key": "apple-iphone13",
+      "brand": "apple",
+      "model": "iPhone 13",
+      "pattern": "(?i)^apple/(?:apple)?iphone13$",
+      "file": "IPhone_13_wordmark.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_13_wordmark.svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone13.png",
+      "source_sha256": "6518c08a336e2e6b82979460d20e10cee6af81f2406c023586ee9874289762f5"
+    },
+    {
+      "key": "apple-iphone13pro",
+      "brand": "apple",
+      "model": "iPhone 13 Pro",
+      "pattern": "(?i)^apple/(?:apple)?iphone13pro$",
+      "file": "IPhone_13_Pro_wordmark.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_13_Pro_wordmark.svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone13pro.png",
+      "source_sha256": "fdd9f7374419ea0a0e1fe5ba8dbdc1a0778dc105691178ef37060e0c23c71695"
+    },
+    {
+      "key": "apple-iphone13promax",
+      "brand": "apple",
+      "model": "iPhone 13 Pro Max",
+      "pattern": "(?i)^apple/(?:apple)?iphone13promax$",
+      "file": "IPhone_13_Pro_Max_wordmark.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_13_Pro_Max_wordmark.svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone13promax.png",
+      "source_sha256": "7180d21886b4ab585e545bfcdc2f2c6f0ccfdab875e017ad22d4ff327a61da2c"
+    },
+    {
+      "key": "apple-iphone14",
+      "brand": "apple",
+      "model": "iPhone 14",
+      "pattern": "(?i)^apple/(?:apple)?iphone14$",
+      "file": "IPhone_14_wordmark.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_14_wordmark.svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone14.png",
+      "source_sha256": "52f449b6306487f212edd78b847c6cea73a5516ba5f9c5991885ff1514e06ee8"
+    },
+    {
+      "key": "apple-iphone14pro",
+      "brand": "apple",
+      "model": "iPhone 14 Pro",
+      "pattern": "(?i)^apple/(?:apple)?iphone14pro$",
+      "file": "iphone-14-pro.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_14_Pro_wordmark.svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone14pro.png",
+      "source_sha256": "faffa57df497144619ed66c6797faa978a1299e18098d77b42ca0f0bc7ca8cbb"
+    },
+    {
+      "key": "apple-iphone14promax",
+      "brand": "apple",
+      "model": "iPhone 14 Pro Max",
+      "pattern": "(?i)^apple/(?:apple)?iphone14promax$",
+      "file": "iphone-14-pro-max.svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_14_Pro_Max_wordmark.svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone14promax.png",
+      "source_sha256": "908254c9465ee8f24c361110bb8923129e3de59e7b850ec295087992abb82469"
+    },
+    {
+      "key": "apple-iphone15pro",
+      "brand": "apple",
+      "model": "iPhone 15 Pro",
+      "pattern": "(?i)^apple/(?:apple)?iphone15pro$",
+      "file": "IPhone_15_Pro_(logo).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_(logo).svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone15pro.png",
+      "source_sha256": "b39452c9db88cfc07b776f202a2fb6064a577a7421bb6541700e6db04b0ddeb7"
+    },
+    {
+      "key": "apple-iphone15promax",
+      "brand": "apple",
+      "model": "iPhone 15 Pro Max",
+      "pattern": "(?i)^apple/(?:apple)?iphone15promax$",
+      "file": "IPhone_15_Pro_Max_(logo).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_15_Pro_Max_(logo).svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone15promax.png",
+      "source_sha256": "e8eaca2fd13047e8f9690d106d3df5314284a8cee26cc4bd991ee55dd7cba949"
+    },
+    {
+      "key": "apple-iphone16pro",
+      "brand": "apple",
+      "model": "iPhone 16 Pro",
+      "pattern": "(?i)^apple/(?:apple)?iphone16pro$",
+      "file": "IPhone_16_Pro_(logo).svg",
+      "source": "https://commons.wikimedia.org/wiki/File:IPhone_16_Pro_(logo).svg",
+      "attribution": "Apple wordmark contours, mirrored by Wikimedia Commons",
+      "asset": "ModelArt-apple-iphone16pro.png",
+      "source_sha256": "ca3aa28ef6c78287ff1bd9aa27438b8c889384906fa0194a7d9b79fa17975ee7"
+    },
+    {
+      "key": "xiaomi-14",
+      "brand": "xiaomi",
+      "model": "Xiaomi 14",
+      "pattern": "(?i)^xiaomi/(?:xiaomi14|14|23127pn0cg)$",
+      "file": "xiaomi-14-title.png",
+      "source": "https://i02.appmifile.com/mi-com-product/fly-birds/xiaomi-14/PC/52f3ec4b2b74315d0fa9ea9f2fad3d03.png",
+      "crop": [
+        0,
+        0,
+        620,
+        75
+      ],
+      "asset": "ModelArt-xiaomi-14.png",
+      "source_sha256": "212ae2f2bd6eed9eacdfdd4218ba001e8ca88f76cc50e9bde1d7b76067417759"
+    },
+    {
+      "key": "fujifilm-xt5",
+      "brand": "fujifilm",
+      "model": "X-T5",
+      "pattern": "(?i)^fujifilm/(?:fujifilm)?xt5$",
+      "file": "fujifilm-xt5-art.png",
+      "source": "https://dl.fujifilm-x.com/ja-jp/products/brochure/x-t5_catalogue_rzpr6.pdf",
+      "source_page": 1,
+      "source_clip_points": [
+        421,
+        31,
+        508,
+        55
+      ],
+      "asset": "ModelArt-fujifilm-xt5.png",
+      "source_sha256": "107fb06719bae0fd9206d47a5acdae14cb9f6dbd423dc6d072d8c4ec2a0be4e7"
+    }
+  ],
+  "partnerships": [
+    {
+      "brand": "xiaomi",
+      "partner": "leica",
+      "pattern": "(?i)^xiaomi/(?:(?:xiaomi)?(?:12sultra|13ultra|14ultra|15ultra|17ultra|12spro|13tpro|14tpro|15tpro|13pro|14pro|12s|13t|14t|15t|13|14|15|17)|23127PN0CG)$",
+      "models": [
+        "12S",
+        "12S Pro",
+        "12S Ultra",
+        "13",
+        "13 Pro",
+        "13 Ultra",
+        "13T",
+        "13T Pro",
+        "14",
+        "14 Pro",
+        "14 Ultra",
+        "14T",
+        "14T Pro",
+        "15",
+        "15 Ultra",
+        "15T",
+        "15T Pro",
+        "17",
+        "17 Ultra"
+      ],
+      "codes": [
+        "23127PN0CG"
+      ],
+      "sources": [
+        "https://leica-camera.com/en-US/news/xiaomi-13-series",
+        "https://leica-camera.com/en-US/news/xiaomi-14-series-latest-leica-camera-features",
+        "https://leica-camera.com/en-GB/press/xiaomi-15-serie",
+        "https://leica-camera.com/ko-KR/press/xiaomi-and-leica-camera-ag-present-xiaomi-15t-series",
+        "https://leica-camera.com/ko-KR/press/xiaomi-and-leica-camera-ag-present-xiaomi-17-series",
+        "https://www.mi.com/ru/support/user-guide-pdf/xiaomi-14/"
+      ],
+      "asset": "CoBrand-xiaomi-leica.png"
+    },
+    {
+      "brand": "huawei",
+      "partner": "leica",
+      "pattern": "(?i)^huawei/(?:(?:huawei)?(?:mate40proplus|p40proplus|mate20pro|mate30pro|mate40pro|mate20x|p9plus|p30pro|p40pro|mate20|mate30|mate40|matexs|p30|p40|p9))$",
+      "models": [
+        "P9",
+        "P9 Plus",
+        "P30",
+        "P30 Pro",
+        "P40",
+        "P40 Pro",
+        "P40 Pro Plus",
+        "Mate 20",
+        "Mate 20 Pro",
+        "Mate 20 X",
+        "Mate 30",
+        "Mate 30 Pro",
+        "Mate 40",
+        "Mate 40 Pro",
+        "Mate 40 Pro Plus",
+        "Mate Xs"
+      ],
+      "codes": [],
+      "sources": [
+        "https://consumer.huawei.com/en/about-us/",
+        "https://consumer.huawei.com/sa-en/campaign/p40/sophisticated-camera-system/",
+        "https://consumer.huawei.com/nz/support/content/en-gb15769074/",
+        "https://consumer.huawei.com/hk/press/news/2020/mate40series_globallaunch/"
+      ],
+      "asset": "CoBrand-huawei-leica.png"
+    },
+    {
+      "brand": "vivo",
+      "partner": "zeiss",
+      "pattern": "(?i)^vivo/(?:(?:vivo)?(?:x60proplus|x70proplus|x90proplus|xfold3pro|x100pro|x200pro|x300pro|x60pro|x70pro|x80pro|x90pro|v30pro|v40pro|x100|x200|x60|x70|x80|x90|v40|v50)|V2413)$",
+      "models": [
+        "X60",
+        "X60 Pro",
+        "X60 Pro Plus",
+        "X70",
+        "X70 Pro",
+        "X70 Pro Plus",
+        "X80",
+        "X80 Pro",
+        "X90",
+        "X90 Pro",
+        "X90 Pro Plus",
+        "X100",
+        "X100 Pro",
+        "X200",
+        "X200 Pro",
+        "X300 Pro",
+        "V30 Pro",
+        "V40",
+        "V40 Pro",
+        "V50",
+        "X Fold3 Pro"
+      ],
+      "codes": [
+        "V2413"
+      ],
+      "sources": [
+        "https://www.zeiss.com/photonics-and-optics/en/photography/mobile-imaging/brand-partnerships.html",
+        "https://www.zeiss.com/photonics-and-optics/en/photography/mobile-imaging/rd-competencies.html",
+        "https://www.vivo.com/en/activity/zeiss/",
+        "https://www.vivo.com/en/products/x200-pro",
+        "https://www.vivo.com/eu/products/x300-pro",
+        "https://www.vivo.com/en/products/v50",
+        "https://www.vivo.com/eu/features?language=en_GB"
+      ],
+      "asset": "CoBrand-vivo-zeiss.png"
+    },
+    {
+      "brand": "oppo",
+      "partner": "hasselblad",
+      "pattern": "(?i)^oppo/(?:(?:oppo)?(?:findx7ultra|findx9ultra|findx5pro|findx6pro|findx8pro|findx9pro|findx5|findx6|findx8)|CPH2651)$",
+      "models": [
+        "Find X5",
+        "Find X5 Pro",
+        "Find X6",
+        "Find X6 Pro",
+        "Find X7 Ultra",
+        "Find X8",
+        "Find X8 Pro",
+        "Find X9 Pro",
+        "Find X9 Ultra"
+      ],
+      "codes": [
+        "CPH2651"
+      ],
+      "sources": [
+        "https://www.oppo.com/en/newsroom/press/oppo-launches-find-x-five-series/",
+        "https://www.oppo.com/en/newsroom/press/find-x6-series-launch/",
+        "https://www.oppo.com/en/newsroom/press/oppo-find-x7-ultra-hypertone-camera-system/",
+        "https://www.oppo.com/en/newsroom/press/find-x8-series-coloros-15-launch-camera-ai/",
+        "https://www.oppo.com/en/newsroom/stories/oppo-find-x9-pro-camera/",
+        "https://www.oppo.com/uk/articles/find-x9-ultra/camera-phones-hasselblad-co-developed-2026/",
+        "https://www.oppo.com/in/smartphones/series-find-x/find-x8/specs/"
+      ],
+      "asset": "CoBrand-oppo-hasselblad.png"
+    },
+    {
+      "brand": "oneplus",
+      "partner": "hasselblad",
+      "pattern": "(?i)^oneplus/(?:(?:oneplus)?(?:10pro|9pro|open|11|12|13|9)|CPH2653)$",
+      "models": [
+        "9",
+        "9 Pro",
+        "10 Pro",
+        "11",
+        "12",
+        "13",
+        "Open"
+      ],
+      "codes": [
+        "CPH2653"
+      ],
+      "sources": [
+        "https://www.oneplus.com/lt/press/press-release/oneplus-and-hasselblad-partnership",
+        "https://www.oneplus.com/us/13",
+        "https://www.oneplus.com/uk/pstisoc"
+      ],
+      "asset": "CoBrand-oneplus-hasselblad.png"
+    },
+    {
+      "brand": "sony",
+      "partner": "zeiss",
+      "pattern": "(?i)^sony/(?:(?:sony)?(?:xperia1iii|xperia5iii|xperiaproi|xperia1ii|xperia1iv|xperia1vi|xperia5ii|xperia5iv|xperiapro|xperia1v|xperia5v))$",
+      "models": [
+        "Xperia 1 II",
+        "Xperia 1 III",
+        "Xperia 1 IV",
+        "Xperia 1 V",
+        "Xperia 1 VI",
+        "Xperia 5 II",
+        "Xperia 5 III",
+        "Xperia 5 IV",
+        "Xperia 5 V",
+        "Xperia PRO",
+        "Xperia PRO-I"
+      ],
+      "codes": [],
+      "sources": [
+        "https://www.zeiss.com/photonics-and-optics/en/photography/mobile-imaging/rd-competencies.html"
+      ],
+      "asset": "CoBrand-sony-zeiss.png"
+    },
+    {
+      "brand": "nokia",
+      "partner": "zeiss",
+      "pattern": "(?i)^nokia/(?:(?:nokia)?(?:9pureview))$",
+      "models": [
+        "9 PureView"
+      ],
+      "codes": [],
+      "sources": [
+        "https://www.hmd.com/en_int/press/introducing-four-new-nokia-smartphones"
+      ],
+      "asset": "CoBrand-nokia-zeiss.png"
+    }
+  ],
+  "override_default": "auto",
+  "override_values": [
+    "auto",
+    "none",
+    "confirmed"
+  ],
+  "notes": [
+    "Only verified finite model allowlists trigger auto partnership.",
+    "Unknown models retain accurate EXIF model text.",
+    "confirmed explicitly applies the selected phone brand partner; it is a user declaration, not an automatic hardware finding."
+  ]
+}
