@@ -1,7 +1,8 @@
 # Camera Database · 相机数据库
 
 仓库：[colorfullife123/camera-database](https://github.com/colorfullife123/camera-database)。
-客户端数据库根地址：`https://raw.githubusercontent.com/colorfullife123/camera-database/main/database`。
+默认更新地址（Gcore CDN）：`https://gcore.jsdelivr.net/gh/colorfullife123/camera-database@main/database`。
+另有 Fastly CDN 和 GitHub 源站，完整地址及切换方法见 [MIRRORS.md](MIRRORS.md)。
 
 这是现有苹果内置快捷指令水印项目的数据源。客户端 v1.5.x 通过 GET 检查 `database/manifest.json`，有新版才下载数据库；不发送照片、EXIF 或机型查询参数。
 
@@ -14,6 +15,8 @@
 - `database/database-<revision>.json`：不可变的完整版本文件。
 - `artwork-provenance.json`、`ASSET-SOURCES.md`：初始字样与商标来源。
 - `tools/database_protocol.py`：仅用 Python 标准库验证并发布数据。
+- `update-sources.json`：Gcore、Fastly 和 GitHub 源站配置，与 v1.5.3 更新器共用。
+- `tools/check_mirrors.py`：校验源配置，实际 GET 各源的清单和数据，验证 SHA-256 及版本绑定。
 
 首批版本 `2026110401` 包含 68 个图像素材，沿用 v1.4.0 的 28 个厂商品牌、32 款型号艺术字及已核实联名机型。别名数量不等于独立机型数量。
 
@@ -22,7 +25,7 @@
 ## 发布更新
 
 1. 在 `database-source.json` 中增加或修正条目，并递增整数 `revision`，例如 `2026110502`。
-2. 确保艺术字和联名关系有可靠出处。PNG 尺寸固定为 1400 × 220；厂商／联名底图为白底，型号字样为透明叠加层。
+2. 确保艺术字和联名关系有可靠出处。PNG 尺寸固定为 1400 × 220；厂商／联名底图为白底，`model_art` 保留透明素材，`model_rows` 必须为白底 RGB PNG。
 3. 生成并检查：
 
 ```bash
@@ -33,6 +36,8 @@ python3 tools/check_release.py
 4. 将 `database-source.json`、新增的 `database/database-<revision>.json` 和最后更新的 `database/manifest.json` 一起提交。保留此前发布的版本文件。
 
 客户端校验清单与下载内容的 SHA-256、数据格式、版式和版本，拒绝比缓存更旧的数据。GitHub Actions 会检查素材 PNG、引用、别名及发布内容的一致性。
+
+镜像检查工作流每天运行两次，也可手动触发；它检查执行环境的可达性和数据一致性，不能代表中国大陆各运营商的连通性。CDN 分支缓存可能滞后，见 [MIRRORS.md](MIRRORS.md)。
 
 SHA-256 用来检查下载内容是否与清单一致，信任来源仍是你控制的 GitHub 仓库和 HTTPS；它不是独立的数字签名。不要修改已发布版本的内容，内容变化必须提升 revision。
 

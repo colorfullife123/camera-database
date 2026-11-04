@@ -15,3 +15,5 @@ jobs:
           python-version: '3.12'
       - name: Validate source, assets and published manifest
         run: python3 tools/check_release.py
+      - name: Validate update source catalog
+        run: python3 tools/check_mirrors.py --catalog-only

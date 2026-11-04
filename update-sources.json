@@ -1,0 +1,22 @@
+{
+  "format": "LiquidGlassCamera.UpdateSources",
+  "schema": 1,
+  "default": "gcore",
+  "sources": [
+    {
+      "key": "gcore",
+      "name": "Gcore CDN",
+      "root": "https://gcore.jsdelivr.net/gh/colorfullife123/camera-database@main/database"
+    },
+    {
+      "key": "fastly",
+      "name": "Fastly CDN",
+      "root": "https://fastly.jsdelivr.net/gh/colorfullife123/camera-database@main/database"
+    },
+    {
+      "key": "github",
+      "name": "GitHub 源站",
+      "root": "https://raw.githubusercontent.com/colorfullife123/camera-database/main/database"
+    }
+  ]
+}

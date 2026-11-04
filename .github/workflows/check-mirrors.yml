@@ -1,0 +1,24 @@
+name: Check database mirrors
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2,14 * * *'
+  push:
+    paths:
+      - 'database/**'
+      - 'update-sources.json'
+      - 'tools/check_mirrors.py'
+      - '.github/workflows/check-mirrors.yml'
+permissions:
+  contents: read
+jobs:
+  mirrors:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify mirrored manifest and database integrity
+        run: python3 tools/check_mirrors.py
